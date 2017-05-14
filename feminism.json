@@ -1,0 +1,339 @@
+{
+    "topics": [
+        {
+            "id": "class",
+            "name": "Class",
+            "description": "Class describes a social group of person(s) based around economic position. Class complicates discussions on feminism as women of different economic circumstances face different forms of oppression, and therefore may need different solutions to achieve greater gender parity.",
+            "color": "powderblue",
+            "children": [
+                { "id": "gender" },
+                { "id": "intersectionality" },
+                { "id": "race" },
+                { "id": "sexuality" },
+                { "id": "rapeCulture" }
+            ]
+        },
+        {
+            "id": "gender",
+            "name": "Gender",
+            "description": "A form of social identity that supposes certain roles and privileges based on self-assigned and socially perceived status. Gender is heavily influenced by sexed bodies, and gender also requires a notion of biological 'naturalness' that gives credence to the idea of supporting different roles for different identities.",
+            "color": "powderblue",
+            "children": [
+                { "id": "intersectionality" },
+                { "id": "rapeCulture" },
+                { "id": "race" },
+                { "id": "female" },
+                { "id": "male" },
+                { "id": "sex" },
+                { "id": "masculinity" }
+            ]
+        },
+        {
+            "id": "intersectionality",
+            "name": "Intersectionality",
+            "description": "A movement to unite all forms of identity affected by institutional and individual forms of oppression.",
+            "color": "springgreen",
+            "children": []
+        },
+        {
+            "id": "race",
+            "name": "Race",
+            "description": "An axis of identity that is largely assigned. Race complicates discussions on feminism and oppression as womxn, mxn, and transgendered persons of color face different forms of oppression and cultural assumptions. Black women, for example, are seen as more sexually promiscuous and are therefore less able to deny the sexual aggression of male or female pursuers.",
+            "color": "powderblue",
+            "children": [
+                { "id": "intersectionality" },
+                { "id": "whiteSupremacy" },
+                { "id": "oppression" },
+                { "id": "sexuality" },
+                { "id": "rapeCulture" },
+                { "id": "gender" }
+            ]
+        },
+        {
+            "id": "sexuality",
+            "name": "Sexuality",
+            "description": "Individually- and socially-perceived understandings of the purpose of the physical body. Sexuality describes the physical communication of desire, and the patriarchy presupposes only one 'acceptable' form of sexuality.",
+            "color": "powderblue",
+            "children": [
+                { "id": "intersectionality" },
+                { "id": "oppression" },
+                { "id": "sex" }
+            ]
+        },
+        {
+            "id": "rapeCulture",
+            "name": "Rape Culture",
+            "description": "An oppressive cultural standard whereby women and LGBTQIA+ members are routinely terrorized via sexual and physical contact. While widely acknowledged to be lamentable, rape is both ubiquitous and invisible because of the cultural standards of consent. By framing the female body as intrinsically sexually provocative and women as subservient to the sexual interests of men, the patriarchy has created an institution of oppression whereby consent is almost impossible to give (or always assumed by clothing, behavior, action, or 'coyness').",
+            "color": "red",
+            "children": [
+                { "id": "lgbtqia" },
+                { "id": "sex" },
+                { "id": "gender" }
+            ]
+        },
+        {
+            "id": "female",
+            "name": "Female",
+            "description": "A 'biologically natural' body historically constructed as the inferior and 'other' sex. By asserting this inferiority as natural, the patriarchy can simultaneously oppress, deceive, and avoid critique.",
+            "color": "powderblue",
+            "children": [
+                { "id": "male" }
+            ]
+        },
+        {
+            "id": "male",
+            "name": "Male",
+            "description": "A 'biologically natural' body historically constructed as the superior sex. By asserting this superiority as natural, the patriarchy can simultaneously oppress, deceive, and avoid critique.",
+            "color": "powderblue",
+            "children": [
+                { "id": "female" }
+            ]
+        },
+        {
+            "id": "sex",
+            "name": "Sex",
+            "description": "A 'biologically'-determinant form of identity. Sex describes the 'natural' state of the body, and forms the basis for heterosexism by asserting there are only two natural states of the body, and all other forms are unnatural.",
+            "color": "powderblue",
+            "children": [
+                { "id": "male" },
+                { "id": "intersectionality" },
+                { "id": "female" }
+            ]
+        },
+        {
+            "id": "transgender",
+            "name": "Transgender",
+            "description": "Gender non-conforming identity; transgenderism threatens the prototypical view of gender and sex under the patriarchy. As such, oppression against transgendered persons usually takes the form of transphobic violence on the basis of gender 'betrayal'.",
+            "color": "powderblue",
+            "children": [
+                { "id": "female" },
+                { "id": "male" },
+                { "id": "sex" },
+                { "id": "gender" },
+                { "id": "masculinity" },
+                { "id": "femininity" },
+                { "id": "heteronormativity" },
+                { "id": "sexuality" }
+            ]
+        },
+        {
+            "id": "intersex",
+            "name": "Intersex",
+            "description": "A term used to describe the biological status of persons not easily assignable to the status of male or female. Intersex individuals threaten the institution of both gender (e.g. intersexed persons might be unable to choose between masculine and feminine identity traits) and sex (e.g. we have a medical and cultural assumption that there are only two kinds of bodies, and intersexual individuals complicate this view).",
+            "color": "powderblue",
+            "children": [
+                { "id": "male" },
+                { "id": "female" },
+                { "id": "sexuality" },
+                { "id": "lgbtqia" }
+            ]
+        },
+        {
+            "id": "masculinity",
+            "name": "Masculinity",
+            "description": "A set of rules and culture around the 'male' body and person whereby one ought to be aggressive, intelligent, forceful, and superior to their feminine counterparts (Millett). Masculinity is defined as the opposite of femininity (i.e. to be masculine is to be the opposite of feminine).",
+            "color": "powderblue",
+            "children": [
+                { "id": "heteronormativity" },
+                { "id": "sexuality" },
+                { "id": "femininity" }
+            ]
+        },
+        {
+            "id": "femininity",
+            "name": "Femininity",
+            "description": "A set of rules and culture around the 'female' body and person whereby one ought to be passive, ignorant, coy, sexually submissive, docile, inferior, and submissive to their masculine counterparts (Millett). As Beauvior has argued, femininity does not equal womanhood; to be a woman is to be the object with which to create the superior male ego.",
+            "color": "powderblue",
+            "children": [
+                { "id": "masculinity" },
+                { "id": "heteronormativity" },
+                { "id": "sexuality" }
+            ]
+        },
+        {
+            "id": "heteronormativity",
+            "name": "Heteronormativity",
+            "description": "A belief system that asserts heterosexuality is natural and good. Heteronormativity perpetuates gender and sex roles through oppression (specifically, homophobia, transphobia, and violence against members of the LGBTQIA+ community). Heteronormativity also affects those who do not appear to conform to their assigned gender roles.",
+            "color": "red",
+            "children": [
+                { "id": "homophobia" },
+                { "id": "lgbtqia" },
+                { "id": "sexuality" },
+                { "id": "sex" },
+                { "id": "oppression" },
+                { "id": "gender" }
+            ]
+        },
+        {
+            "id": "homophobia",
+            "name": "Homophobia",
+            "description": "A form of violence, fear, or disapproval against persons believed to be homosexual. Homophobia occurs both consciously and unconsciously in those who have to some extent internalized the greater beliefs of the patriarchy.",
+            "color": "red",
+            "children": [
+                { "id": "oppression" },
+                { "id": "lgbtqia" }
+            ]
+        },
+        {
+            "id": "lgbtqia",
+            "name": "LGBTQIA+",
+            "description": "A catch-all term to describe gender nonconforming and non-heteronormative persons who are often oppressed for their 'threat' to the patriarchy.",
+            "color": "powderblue",
+            "children": [
+                { "id": "heteronormativity" },
+                { "id": "intersectionality" }
+            ]
+        },
+        {
+            "id": "misogynoir",
+            "name": "Misogynoir",
+            "description": "An example of marginalization against black women by forgoing their experiences in discussions of intersectional feminism.",
+            "color": "red",
+            "children": [
+                { "id": "race" }
+            ]
+        },
+        {
+            "id": "religion",
+            "name": "Religion",
+            "description": "An important axis of identity, social organization, and moral ethic. Religion shapes our own belief systems about identity and acts as a surrogate for dispersing ideas, rites, and rituals. A vehicle for both liberation and oppression, religion contributes to identities like sex, class, gender, and race. Religious beliefs on gender roles and the role of sexuality can oppress groups of persons and contribute to rape culture by refusing to acknowledge incidents of institutional forms of sexual assault and rape, or by asserting the moral superiority of men.",
+            "color": "powderblue",
+            "children": [
+                { "id": "intersectionality" },
+                { "id": "oppression" },
+                { "id": "sexuality" },
+                { "id": "rapeCulture" },
+                { "id": "sex" },
+                { "id": "class" },
+                { "id": "gender" },
+                { "id": "race" }
+            ]
+        },
+        {
+            "id": "whiteSupremacy",
+            "name": "White Supremacy",
+            "description": "An institutional belief in the advantage and 'goodness' of the dominant white culture. White supremacy has historically been supported by religious arguments and continues to oppress classes of persons through conscious and unconscious ways.",
+            "color": "red",
+            "children": [
+                { "id": "religion" },
+                { "id": "oppression" },
+                { "id": "class" },
+                { "id": "race" }
+            ]
+        },
+        {
+            "id": "privilege",
+            "name": "Privilege",
+            "description": "The status of individual or social advantage because of perceived identity or contextual advantage (wealth, political situation, communal resources). One of the challenges for intersectional feminism is the inability of many racial and gendered groups to acknowledge or understand their own privilege.",
+            "color": "powderblue",
+            "children": [
+                { "id": "race" },
+                { "id": "class" },
+                { "id": "gender" },
+                { "id": "sexuality" }
+            ]
+        },
+        {
+            "id": "oppression",
+            "name": "Oppression",
+            "description": "As Frye has argued, oppression involves harm to members of a social group caused by systematic restrictions on freedom that disproportionately benefit another group. Oppression occurs on the basis of perceived identity (either self-prescribed or by association, aggregation, or voluntary participation in a social group). Iris Young identifies five forms: marginalization, cultural imperialism, violence, exploitation, and powerlessness. Groups that are not subject to some or many of these forms of oppression have a certain degree of privilege.",
+            "color": "red",
+            "children": [
+                { "id": "marginalization" },
+                { "id": "culturalImperialism" },
+                { "id": "violence" },
+                { "id": "privilege" },
+                { "id": "exploitation" },
+                { "id": "powerlessness" }
+            ]
+        },
+        {
+            "id": "marginalization",
+            "name": "Marginalization",
+            "description": "The process of becoming invisible; marginalization describes the state of a minority group's culture or status as unimportant or ignored. Exclusionary feminism that does not acknowledge the unique challenges of women of color (misogynoir), women of the LGBTQIA+ community, disabled women, or women of lower economic status is a form of marginalization.",
+            "color": "red",
+            "children": [
+                { "id": "class" },
+                { "id": "misogynoir" },
+                { "id": "lgbtqia" },
+                { "id": "race" },
+                { "id": "sexuality" }
+            ]
+        },
+        {
+            "id": "culturalImperialism",
+            "name": "Cultural Imperialism",
+            "description": "Oppression by imposing the dominant culture as the norm. Cultural imperialism can also include hijacking a minority group's culture and claiming it as belonging to the dominant culture. Normative beliefs about gender roles (e.g. asserting sexed or gendered roles as 'natural' or 'better') affect all disadvantaged groups, including identities formed around axes of class, gender, sexuality, sex, race, nationality, or religion.",
+            "color": "red",
+            "children": [
+                { "id": "class" },
+                { "id": "lgbtqia" }
+            ]
+        },
+        {
+            "id": "violence",
+            "name": "Violence",
+            "description": "A form of oppression that shatters selfhood through emotional, psychological, or physical harm. Violence takes many forms; when targeted at specific groups because of their perceived identity, violence contributes to a system of structured terror against members of the LGBTQIA+ community, women, people of color, or a combination of all of these 'threatening' identities.",
+            "color": "red",
+            "children": [
+                { "id": "race" },
+                { "id": "rapeCulture" },
+                { "id": "transphobicViolence" },
+                { "id": "homophobicViolence" },
+                { "id": "gender" },
+                { "id": "sex" }
+            ]
+        },
+        {
+            "id": "transphobicViolence",
+            "name": "Transphobic Violence",
+            "description": "An extension of violence and oppression that contributes to a culture of rape while targeting members of the LGBTQIA+ community, specifically those perceived to be transgendered or transsexual. Perpetrators extend the reach of the patriarchy, acting out of a desire to punish those non-conforming to the patriarchy.",
+            "color": "red",
+            "children": [
+                { "id": "rapeCulture" },
+                { "id": "transgender" },
+                { "id": "heteronormativity" },
+                { "id": "homophobia" },
+                { "id": "lgbtqia" }
+            ]
+        },
+        {
+            "id": "homophobicViolence",
+            "name": "Homophobic Violence",
+            "description": "An extension of violence and oppression that contributes to a culture of rape while targeting members of the LGBTQIA+ community. Perpetrators extend the reach of the patriarchy, acting out of a desire to punish those non-conforming to the patriarchy.",
+            "color": "red",
+            "children": [
+                { "id": "rapeCulture" },
+                { "id": "lgbtqia" },
+                { "id": "patriarchy" }
+            ]
+        },
+        {
+            "id": "exploitation",
+            "name": "Exploitation",
+            "description": "An economically-focused form of oppression. Exploitation is the process of oppressors profiting off of the labor of the oppressed without fair compensation. Exploitation occurs within the feminist movement (via the commercialization of its message, or the protection racket created by companies to 'sell' feminism as a product while also creating the psychological and emotional demand mindset that establishes its original commercial value), and against women, minority groups, and the LGBTQIA+ community (via underemployment, pay gaps, income inequality, and coercion).",
+            "color": "red",
+            "children": [
+                { "id": "lgbtqia" },
+                { "id": "gender" },
+                { "id": "sex" },
+                { "id": "class" },
+                { "id": "race" }
+            ]
+        },
+        {
+            "id": "powerlessness",
+            "name": "Powerlessness",
+            "description": "Powerlessness describes the lack of autonomy and agency an individual or group may feel due to external impositions. As one of Iris Young's five forms of oppression, it's an experience exacerbated by rape culture. It is also an experience felt most poignantly by non-dominant groups like persons of color, women, the economically disadvantaged, members of the LGBTQIA+ community, and the sexually non-conforming.",
+            "color": "red",
+            "children": [
+                { "id": "race" },
+                { "id": "rapeCulture" },
+                { "id": "sexuality" },
+                { "id": "class" },
+                { "id": "gender" },
+                { "id": "lgbtqia" }
+            ]
+        }
+    ]
+}
